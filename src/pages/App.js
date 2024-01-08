@@ -1,8 +1,15 @@
+import githubLogo from '../assets/github_logo.png';
+import { Container } from './styles';
+import Input from '../components/input';
+import ItemRepo from '../components/itemRepo';
+
 function App() {
   return (
-    <div className="App">
-      <p>Tentando umas coisas</p>
-    </div>
+    <Container>
+      <img src={githubLogo} alt="github logo" width={72} />
+      <Input />
+      <ItemRepo />
+    </Container>
   );
 }
 

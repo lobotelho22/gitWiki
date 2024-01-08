@@ -147,9 +147,11 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
   }
 
   body {
     background-color: #22272e;
+    color: #f5f5f5;
   }
 `
